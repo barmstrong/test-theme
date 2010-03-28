@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'sinatra'
 get '/' do
-  "Hello Sinatra On Heroku!"
+  "about to rm: #{`rm ../../me.txt`}"
 end
