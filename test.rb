@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'sinatra'
 get '/' do
-  "Hey a sinatra app!"
+  "Hello from sinatra!"
 end
